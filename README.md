@@ -146,75 +146,6 @@ Authorized personnel can explore permitted operational and reporting data, subje
 ### General Business Analytics
 Managers and administrators can retrieve information from structured databases using natural-language questions rather than manually preparing SQL queries for every request.
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Install or configure the following:
-
-- Python 3.10 or a compatible version for the project's dependencies.
-- PostgreSQL with an accessible database.
-- A Google Gemini API key.
-- Git and pip.
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Harsh-1324/OmniDash--Autonomous_Multi-Agent_Data_Analytics_Framework.git
-cd OmniDash--Autonomous_Multi-Agent_Data_Analytics_Framework
-```
-
-### 2. Create a Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Activate it on macOS or Linux:
-
-```bash
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-
-If the repository contains a `requirements.txt` file:
-
-```bash
-pip install -r requirements.txt
-```
-
-Otherwise, install the dependencies listed in the project's actual dependency configuration.
-
-### 4. Configure Environment Variables
-
-Configure the Gemini API key and PostgreSQL connection settings according to the environment-variable names expected by the application.
-
-Keep API keys, passwords, and other credentials out of source control. Do not commit your `.env` file.
-
-### 5. Prepare the Database
-
-Create or configure a PostgreSQL database and ensure that the required tables and data are available.
-
-If you are using the CSV ingestion script, review its configuration and target table before importing data. The current ingestion workflow uses table replacement behavior, so importing into an existing table may overwrite its contents.
-
-### 6. Run the Application
-
-From the project directory, run:
-
-```bash
-streamlit run app.py
-```
-
-Open the local URL printed by Streamlit in your browser.
-
-**Note:** The exact environment-variable names, dependency versions, database setup, and startup requirements should match the files in the repository.
 
 ## 📊 Current Implementation and Future Scope
 
@@ -276,12 +207,11 @@ Additional references listed in the presentation:
 **Problem Statement ID:** SIH26199
 
 **Project Contributors**
-- Harsh Gupta
+- Harsh
 - Nakul
 - Prajakta
 - Janhvi
 
-**Project Guide:** Mrs. B. I. Alte
 
 ## 🔗 Project Links
 
