@@ -2,7 +2,7 @@
 
 **Smart India Hackathon 2026 | Problem Statement ID: SIH26199**  
 **Team Name:** Jet Brains  
-**Category:** Software | Student Innovation
+**Category:** Software |  Miscellaneous
 
 OmniDash is an AI-powered, natural-language data analytics assistant designed to help non-technical users retrieve insights from structured databases without manually writing SQL queries. It connects conversational AI with database tools to translate business questions into SQL, retrieve results, and present them in an understandable format.
 
